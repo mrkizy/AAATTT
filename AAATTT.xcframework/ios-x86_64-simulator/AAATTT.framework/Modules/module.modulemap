@@ -1,0 +1,11 @@
+framework module AAATTT {
+  umbrella header "AAATTT.h"
+
+  export *
+  module * { export * }
+}
+
+module AAATTT.Swift {
+  header "AAATTT-Swift.h"
+  requires objc
+}
